@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Jumbotron} from 'reactstrap';
 import { Card,Col, Button, Form, FormGroup, Label, Input, FormText, Container, Badge, Row } from 'reactstrap';
 import { Alert } from 'reactstrap';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";

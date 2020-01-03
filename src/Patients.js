@@ -19,7 +19,7 @@ class Patients extends Component {
         'Authorization': `Bearer ${localStorage.getItem('token')}`
       }
   }
-  axios.get('http://192.168.100.17:3333/api/patient', header)
+  axios.get('http://192.168.100.112:3333/api/patient', header)
       .then(response => {
         const { data } = response;
         this.setState({patient: data})

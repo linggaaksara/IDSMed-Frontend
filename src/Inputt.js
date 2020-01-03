@@ -73,7 +73,7 @@ class Inputt extends Component {
         'Authorization': `Bearer ${localStorage.getItem('token')}`
       }
     }
-    axios.post('http://192.168.100.17:3333/api/patient/add', patient, header)
+    axios.post('http://192.168.100.112:3333/api/patient/add', patient, header)
       .then(response => {
         const { data } = response.data;
         this.postcekups(this.state, data.id);

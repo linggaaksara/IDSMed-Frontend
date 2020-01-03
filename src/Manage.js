@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 import {Jumbotron} from 'reactstrap';
 import Header from './Header.jsx';
+import Eman from './Eman';
 import { Table, Col, Alert, Badge, Label, FormGroup, Input, Pagination, PaginationItem, PaginationLink} from 'reactstrap';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import activityIcon from './assets/image/icons8-edit-25.png';
@@ -52,7 +53,7 @@ class Manage extends Component {
                 <td>{user.name}</td>
                 <td>{role}</td>
                 <td width="21%">
-                  <a href="#"><img src={activityIcon} /></a>
+                  <a href="/Eman/"><img src={activityIcon} /></a>
                   <i> </i>
                   <i> </i>
                   <i> </i>
